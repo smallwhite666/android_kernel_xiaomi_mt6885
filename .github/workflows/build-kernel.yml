@@ -82,8 +82,8 @@ jobs:
     - name: Download Clang-aosp and Gcc-aosp
       run: |
         mkdir clang-aosp
-        wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r487747c.tar.gz
-        tar -C clang-aosp/ -zxvf clang-r487747c.tar.gz
+        wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r498229b.tar.gz
+        tar -C clang-aosp/ -zxvf clang-r498229b.tar.gz
         mkdir gcc-aosp
         curl -o gcc-aosp.tar.gz https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz
         tar -C gcc-aosp/ -zxvf gcc-aosp.tar.gz
